@@ -2,7 +2,7 @@ const usernameHtml = document.querySelector(".username")
 const passwordHtml = document.querySelector(".password")
 const loginButton = document.querySelector(".login")
 const registerButton = document.querySelector(".register")
-const storeLocation = document.querySelector(".location-storage") // criei isso aqui so para botar o valor do endereço quando eu encontralo na função
+const storeLocation = document.querySelector(".location-storage") // criei isso aqui so para botar o valor do endereço quando eu encontra-lo na função
 const showAll = document.querySelector(".see-all");
 
 async function init(sucess, err) {
