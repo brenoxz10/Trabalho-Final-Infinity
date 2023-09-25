@@ -34,7 +34,7 @@ async function getLocation(lat, longi) {
     }
 }
 
-async function registerNewPerson(url, info) { // essa parte eu nao botei a url bruta porque o CrudCrud vai ficar mudando todo dia minha url;
+async function registerNewPerson(url, info) { // em algumas funções eu botei a url como parametro porque o CrudCrud vai ficar mudando ela todo dia;
     try {
         await fetch(url, {
             method: "POST",
